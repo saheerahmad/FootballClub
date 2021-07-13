@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Header styles start */
+header{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: #181733;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    position: absolute;
+    width: 80%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 3em;
+}
+/* Header styles end */
+
+/* Player Grid css */
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 677px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 30px;
+}
+.threeplayers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 474px;
+    width: 1050px;
+}
+.player{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 474px;
+    width: 330px;
+}
+.inplayer{
+    height: 426px;
+    width: 300px;
+}
+.inplayer div{
+    height: 154px;
+    width: 300px;
+}
+.inplayer img{
+    height: 256px;
+    width: 300px;
+}
+/* Player Grid end */
