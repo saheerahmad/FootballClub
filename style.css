@@ -114,7 +114,10 @@ nav a{
     display: block;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 780px)  {
+@media only screen and (min-width: 380px) and (max-width: 780px)  {
+    body{
+        overflow-x: hidden;
+    }
     header{
         display: block;
         height: 700px;
