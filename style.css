@@ -74,12 +74,15 @@ nav a{
 .flexbox:hover .messi{
     display: block;
 }
-.messi:hover{
+.flexbox:hover .premessi{
+    display: none;
+}
+.flexbox2:hover .messi{
     transform: rotate(-110deg);
     transition: transform 1s ease-in;
 }
-.flexbox:hover .ball{
-    animation: ballmove 1s ease-in 1.3s 1 forwards;
+.flexbox2:hover .ball{
+    animation: ballmove 1s ease-in 0.9s 1 forwards;
 }
 @keyframes ballmove {
     from{
