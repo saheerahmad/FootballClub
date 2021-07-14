@@ -117,7 +117,7 @@ nav a{
 @media only screen and (min-width: 480px) and (max-width: 780px)  {
     header{
         display: block;
-        height: 695px;
+        height: 700px;
     }
     .navbar{
         display: none;
@@ -148,6 +148,13 @@ nav a{
     .flexbox{
         display: flex;
         flex-direction: column;
+    }
+    
+    header:hover .messi{
+        display: block;
+    }
+    header:hover .premessi{
+        display: none;
     }
     .net{
         position: absolute;
@@ -260,25 +267,43 @@ body{
 .inplayer img:hover{
     transform: scale(1.1);
 }
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+    
+    .container{
+        margin-top: 742px;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 940px;
+    }
+    .threeplayers{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
 /* Player Grid end */
 
 /* live Section */
 .live{
-    display: flex;
-    align-items: center;
     width: 90%;
     position: absolute;
-    top: 3000px;
+    top: 2750px;
 }
 .livebox{
-    padding: 15px;
-    margin-right: 15px;
-    order: 1;
     position: absolute;
-    left: 5%;
     box-shadow: #6C6C6C 0px 0px 50px;
     height: 300px;
     width: 400px;
+}
+@media only screen and (min-width:780px) {
+    .livebox{
+        position: absolute;
+        left: 2%;
+        margin-right: 5%;
+    }
+    .live img{
+        position: absolute;
+        right: 2%;
+    }
 }
 .livebox h1{
     margin-bottom: 15px;
@@ -292,10 +317,28 @@ body{
 .live img{
     box-shadow: #6C6C6C 0px 0px 30px;
     position: absolute;
-    right: 5%;
-    order: 2;
     height: 400px;
     width: 600px;
+}
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+    .live{
+        top: 6574px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .livebox{
+        position: absolute;
+        box-shadow: #6C6C6C 0px 0px 50px;
+        height: 299px;
+        width: 329px;
+    }
+    .live img{
+        top: 180px;
+        height: 300px;
+        width: 400px;
+    }
 }
 /* Live Section end */
 
@@ -328,6 +371,12 @@ body{
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+    .sponsors{
+        width: 100%;
+        top: 7100px;
+    }
+}
 /* Sponsor end */
 
 /* Footer Start */
@@ -358,5 +407,10 @@ footer h1{
 .foot i{
     color: #6C6C6C;
     font-size: 32px;
+}
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+    footer{
+        top: 3800px;
+    }
 }
 /* Footer End */
