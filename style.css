@@ -20,6 +20,10 @@ header{
     position: absolute;
     width: 80%;
 }
+.menu{
+    display: none;
+    padding: 15px;
+}
 nav{
     display: flex;
     align-items: center;
@@ -108,6 +112,95 @@ nav a{
 }
 .flexbox:hover .ball{
     display: block;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 780px)  {
+    header{
+        display: block;
+        height: 695px;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu{
+        display: block;
+        color: white;
+    }
+    .menu ul{
+        display: none;
+        background-color: #181733;
+        list-style: none;
+    }
+    .menu li{
+        width: 90px;
+        padding: 5px;
+        background-color: white;
+    }
+    .menu a{
+        margin-bottom: 15px;
+        text-decoration: none;
+        color: black;
+        word-wrap: break-word;
+    }
+    .menu:hover ul{
+        display: block;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .net{
+        position: absolute;
+        top: 400px;
+        left: 16px;
+    }
+    .ball{
+        height: 30px;
+        width: 30px;
+        top: 380px;
+    }
+    .premessi{
+        top: 400px;
+    }
+    
+    @keyframes ballmove {
+        from{
+            top: 380px;
+            right: 165px;
+        } 
+        to{
+            right: 360px;
+            top: 480px;
+        }
+    }
+    .messi{
+        top: 400px;
+    }
+    .box1{
+        position: absolute;
+        top: 112px;
+        left: 16px;
+        height: 138px;
+        width: 278px;
+        left: 8%;
+        color: white;
+    }
+    .box1 h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .box1 i{
+        font-size: 32px;
+    }
+    .box1 a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        color: red;
+    } 
+    .box1 h6{
+        font-size: 15px;
+    }
 }
 /* Header styles end */
 
