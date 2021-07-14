@@ -79,7 +79,7 @@ nav a{
     transition: transform 1s ease-in;
 }
 .flexbox:hover .ball{
-    animation: ballmove 1s ease-in 1.5s 1 forwards;
+    animation: ballmove 1s ease-in 1.3s 1 forwards;
 }
 @keyframes ballmove {
     from{
@@ -136,8 +136,8 @@ body{
     width: 300px;
 }
 .inplayer div:hover{
-    transform: scale(1.5);
-    background-color: white
+    transform: scale(1.3);
+    background-color: white;
 }
 .inplayer p{
     color: #6C6C6C;
@@ -156,6 +156,42 @@ body{
     transform: scale(1.2);
 }
 /* Player Grid end */
+
+/* live Section */
+.live{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    top: 3000px;
+}
+.livebox{
+    padding: 15px;
+    order: 1;
+    position: absolute;
+    left: 5%;
+    box-shadow: #6C6C6C 0px 0px 50px;
+    height: 300px;
+    width: 400px;
+}
+.livebox h1{
+    margin-bottom: 15px;
+}
+.livebox p{
+    margin-bottom: 10px;
+}
+.livebox i{
+    font-size: 40px;
+}
+.live img{
+    box-shadow: #6C6C6C 0px 0px 30px;
+    position: absolute;
+    right: 5%;
+    order: 2;
+    height: 400px;
+    width: 600px;
+}
+/* Live Section end */
 
 /* Sponsors section */
 .sponsors{
