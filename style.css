@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 /* Header styles start */
 header{
@@ -36,12 +37,18 @@ nav a{
 
 }
 .box1{
+    height: 485px;
+    width: 230px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
     position: absolute;
     left: 8%;
     color: white;
-    width: 20%;
-    order: 1;
-    font-size: 40px;
+    font-size: 30px;
+}
+.box1 h6{
+    font-size: 15px;
 }
 .ball{
     display: none;
@@ -80,7 +87,7 @@ nav a{
         right: 165px;
     } 
     to{
-        right: 670px;
+        right: 600px;
         top: 200px;
     }
 }
@@ -111,10 +118,11 @@ body{
     width: 1050px;
 }
 .player{
-    background-color: beige;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .15)  0px 0px 40px;
     display: flex;
+    padding-top: 15px;
     justify-content: center;
-    align-items: center;
     height: 474px;
     width: 330px;
 }
@@ -123,11 +131,90 @@ body{
     width: 300px;
 }
 .inplayer div{
+    margin-top: 15px;
     height: 154px;
     width: 300px;
+}
+.inplayer div:hover{
+    transform: scale(1.5);
+    background-color: white
+}
+.inplayer p{
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.inplayer h3{
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 28px;
 }
 .inplayer img{
     height: 256px;
     width: 300px;
 }
+.inplayer img:hover{
+    transform: scale(1.2);
+}
 /* Player Grid end */
+
+/* Sponsors section */
+.sponsors{
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 3300px;
+    background-color: #181733;
+}
+.sponsors img{
+    filter: opacity(20%);
+    height: 50px;
+    width: 80px;
+}
+.sponsors img:hover{
+    filter: opacity(100%);
+    color: #6C6C6C;
+    transform: scale(1.5);
+}
+.sponimages{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* Sponsor end */
+
+/* Footer Start */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 484px;
+    height: 214px;
+    position: absolute;
+    margin-top: 3473px;
+}
+footer h1{
+    line-height: 72px;
+    font-size: 72px;
+    font-weight: 400;
+    font-family: Niconne;
+    color: #10437A;
+}
+.foot{
+    width: 170px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.foot i{
+    color: #6C6C6C;
+    font-size: 32px;
+}
+/* Footer End */
