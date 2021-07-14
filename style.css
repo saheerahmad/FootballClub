@@ -333,6 +333,7 @@ body{
     }
     .livebox{
         position: absolute;
+        padding: 15px;
         box-shadow: #6C6C6C 0px 0px 50px;
         height: 299px;
         width: 329px;
