@@ -114,7 +114,7 @@ nav a{
     display: block;
 }
 
-@media only screen and (min-width: 380px) and (max-width: 780px)  {
+@media only screen and (min-width: 0px) and (max-width: 780px)  {
     body{
         overflow-x: hidden;
     }
@@ -270,7 +270,7 @@ body{
 .inplayer img:hover{
     transform: scale(1.1);
 }
-@media only screen and (min-width: 480px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 780px) {
     
     .container{
         margin-top: 742px;
@@ -323,7 +323,7 @@ body{
     height: 400px;
     width: 600px;
 }
-@media only screen and (min-width: 480px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 780px) {
     .live{
         top: 6574px;
         display: flex;
@@ -375,7 +375,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-@media only screen and (min-width: 480px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 780px) {
     .sponsors{
         width: 100%;
         top: 7100px;
@@ -412,7 +412,7 @@ footer h1{
     color: #6C6C6C;
     font-size: 32px;
 }
-@media only screen and (min-width: 480px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 780px) {
     footer{
         top: 3800px;
     }
